@@ -22,7 +22,8 @@ This is a simple GUI application built using Python and Tkinter to demonstrate t
 2. Install Python if you haven't already.
 3. Install the required dependencies using the following command: pip install tk 
 4. Navigate to the project directory in your terminal.
-5. Run the script using the following command: python caesar_cipher_gui.py
+5. Run the script using the following command:
+   ```python caesar_cipher_gui.py```
   
 
 

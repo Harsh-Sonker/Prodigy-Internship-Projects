@@ -24,7 +24,9 @@ This is a simple GUI application built using Python and Tkinter to demonstrate t
 4. Navigate to the project directory in your terminal.
 5. Run the script using the following command:
    ```python caesar_cipher_gui.py```
-  
+
+## Screenshot
+![image](https://github.com/Harsh-Sonker/Prodigy-Internship-Projects/assets/86284353/ea17cd3c-3c5c-44f3-be36-ff50dffe3a4a)
 
 
 ## Author

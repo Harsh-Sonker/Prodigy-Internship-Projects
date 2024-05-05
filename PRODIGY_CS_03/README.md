@@ -4,6 +4,7 @@ This is a simple web page that checks the strength of a password based on its le
 
 ## Preview
 
+![Screenshot 2024-05-05 180106](https://github.com/Harsh-Sonker/Prodigy-Internship-Projects/assets/86284353/23073f97-61ca-4029-a0d7-4ca63f087ffe)
 
 ## How to Use
 

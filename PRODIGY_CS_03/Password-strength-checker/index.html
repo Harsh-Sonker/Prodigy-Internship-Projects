@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Strength-Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Password Strength Checker</h1>
+        <div class="input-box">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit"><img src="/arrow.png" alt=""></button>
+            <p id="message">Password is <span id="strength"></span></p>
+            <p class="password-requirements">Password must be at least 8 characters long and contain special characters.
+            </p>
+        </div>
+    </div>
+
+    <script>
+
+        var pass = document.getElementById("password");
+        var msg = document.getElementById("message");
+        var str = document.getElementById("strength");
+
+        pass.addEventListener('input', () => {
+            if (pass.value.length > 0) {
+                msg.style.display = "block";
+            }
+            else {
+                msg.style.display = "none";
+            }
+
+            var specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+
+            // Check if password contains special characters
+            if (specialChars.test(pass.value) && pass.value.length >= 8) {
+                str.innerHTML = 'strong'; // Password is strong
+                pass.style.borderColor = "green"; // Green border
+                msg.style.color = "green"; // Green message color
+            } else if (pass.value.length <= 4) {
+                str.innerHTML = 'weak'; // Password is weak
+                pass.style.borderColor = "red"; // Red border
+                msg.style.color = "red"; // Red message color
+            } else if (pass.value.length >= 4 && pass.value.length < 8) {
+                str.innerHTML = 'medium'; // Password is medium
+                pass.style.borderColor = "yellow"; // Yellow border
+                msg.style.color = "yellow"; // Yellow message color
+            }
+
+        })</script>
+</body>
+
+</html>

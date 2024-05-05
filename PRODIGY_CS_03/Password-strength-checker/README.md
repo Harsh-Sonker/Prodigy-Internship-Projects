@@ -3,7 +3,7 @@
 This is a simple web page that checks the strength of a password based on its length and the presence of special characters.
 
 ## Preview
-
+![image](https://github.com/Harsh-Sonker/Prodigy-Internship-Projects/assets/86284353/59fea8f0-fe56-49ab-8c04-fa074ae8d62d)
 
 ## How to Use
 

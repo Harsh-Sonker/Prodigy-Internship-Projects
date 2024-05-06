@@ -14,17 +14,16 @@ This is a simple image encryption and decryption tool implemented in Python usin
 
    ```sh
    bash git clone https://github.com/your-username/image-encryption-tool.git
+   pip install Pillow
+3. Install the required libraries:
    ```sh
    pip install Pillow
-2. Install the required libraries:
-   ```sh
-   pip install Pillow
-3. Run the application:
+4. Run the application:
    ```sh
    python image_encryption_gui.py
-4. Attach an image file using the "Attach File" button.
-5. Click the "Encrypt Image" button to encrypt the attached image.
-6. Click the "Decrypt Image" button to decrypt the encrypted image.
+5. Attach an image file using the "Attach File" button.
+6. Click the "Encrypt Image" button to encrypt the attached image.
+7. Click the "Decrypt Image" button to decrypt the encrypted image.
 
 ## Screenshots
 ![image](https://github.com/Harsh-Sonker/Prodigy-Internship-Projects/assets/86284353/0f078fb1-feba-4ac9-93a9-1a712394e42f)

@@ -20,10 +20,13 @@ This is a simple GUI application built using Python and Tkinter to demonstrate t
 
 1. Clone this repository to your local machine.
 2. Install Python if you haven't already.
-3. Install the required dependencies using the following command: ```pip install tk``` 
+3. Install the required dependencies using the following command:
+   ```sh
+   pip install tk 
 4. Navigate to the project directory in your terminal.
 5. Run the script using the following command:
-   ```python caesar_cipher_gui.py```
+   ```sh
+   python caesar_cipher_gui.py
 
 ## Screenshot
 ![image](https://github.com/Harsh-Sonker/Prodigy-Internship-Projects/assets/86284353/ea17cd3c-3c5c-44f3-be36-ff50dffe3a4a)
